@@ -1,7 +1,7 @@
 export const fetchResponse = async (chat) => {
     try {
         // after depoloyment you should change the fetch URL below
-        const response = await fetch('https://chatgpt-server-dfb9.vercel.app/', {
+        const response = await fetch('Place the url here you get from server side', {
             method: 'POST',
             headers: {
                 "Content-Type": "application/json"
